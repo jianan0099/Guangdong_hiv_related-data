@@ -1,0 +1,607 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf version="1.2" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes class="node" mode="static">
+      <attribute id="0" title="city_name" type="string" />
+      <attribute id="1" title="lat" type="string" />
+      <attribute id="2" title="lon" type="string" />
+      <attribute id="3" title="cases" type="long" />
+    </attributes>
+    <meta>
+      <creator>NetworkX 2.3</creator>
+      <lastmodified>01/10/2021</lastmodified>
+    </meta>
+    <nodes>
+      <node id="GZ" label="GZ">
+        <attvalues>
+          <attvalue for="0" value="Guangzhou" />
+          <attvalue for="1" value="23.1449813" />
+          <attvalue for="2" value="113.3250101" />
+          <attvalue for="3" value="19914" />
+        </attvalues>
+      </node>
+      <node id="SG" label="SG">
+        <attvalues>
+          <attvalue for="0" value="Shaoguan" />
+          <attvalue for="1" value="24.79997072" />
+          <attvalue for="2" value="113.5799816" />
+          <attvalue for="3" value="1179" />
+        </attvalues>
+      </node>
+      <node id="SZ" label="SZ">
+        <attvalues>
+          <attvalue for="0" value="Shenzhen" />
+          <attvalue for="1" value="22.55237051" />
+          <attvalue for="2" value="114.1221231" />
+          <attvalue for="3" value="12395" />
+        </attvalues>
+      </node>
+      <node id="ZH" label="ZH">
+        <attvalues>
+          <attvalue for="0" value="Zhuhai" />
+          <attvalue for="1" value="22.2769444" />
+          <attvalue for="2" value="113.5677778" />
+          <attvalue for="3" value="1843" />
+        </attvalues>
+      </node>
+      <node id="ST" label="ST">
+        <attvalues>
+          <attvalue for="0" value="Shantou" />
+          <attvalue for="1" value="23.37000633" />
+          <attvalue for="2" value="116.6700256" />
+          <attvalue for="3" value="1681" />
+        </attvalues>
+      </node>
+      <node id="FS" label="FS">
+        <attvalues>
+          <attvalue for="0" value="Foshan" />
+          <attvalue for="1" value="23.03005292" />
+          <attvalue for="2" value="113.1200097" />
+          <attvalue for="3" value="7934" />
+        </attvalues>
+      </node>
+      <node id="JM" label="JM">
+        <attvalues>
+          <attvalue for="0" value="Jiangmen" />
+          <attvalue for="1" value="22.58039044" />
+          <attvalue for="2" value="113.0800122" />
+          <attvalue for="3" value="5080" />
+        </attvalues>
+      </node>
+      <node id="ZJ" label="ZJ">
+        <attvalues>
+          <attvalue for="0" value="Zhanjiang" />
+          <attvalue for="1" value="21.19998374" />
+          <attvalue for="2" value="110.3800219" />
+          <attvalue for="3" value="2885" />
+        </attvalues>
+      </node>
+      <node id="MM" label="MM">
+        <attvalues>
+          <attvalue for="0" value="Maoming" />
+          <attvalue for="1" value="21.92040489" />
+          <attvalue for="2" value="110.8700179" />
+          <attvalue for="3" value="2158" />
+        </attvalues>
+      </node>
+      <node id="ZQ" label="ZQ">
+        <attvalues>
+          <attvalue for="0" value="Zhaoqing" />
+          <attvalue for="1" value="23.05041343" />
+          <attvalue for="2" value="112.4500248" />
+          <attvalue for="3" value="1889" />
+        </attvalues>
+      </node>
+      <node id="HZ" label="HZ">
+        <attvalues>
+          <attvalue for="0" value="Huizhou" />
+          <attvalue for="1" value="23.07997235" />
+          <attvalue for="2" value="114.3999833" />
+          <attvalue for="3" value="1662" />
+        </attvalues>
+      </node>
+      <node id="MZ" label="MZ">
+        <attvalues>
+          <attvalue for="0" value="Meizhou" />
+          <attvalue for="1" value="24.30049217" />
+          <attvalue for="2" value="116.1199816" />
+          <attvalue for="3" value="636" />
+        </attvalues>
+      </node>
+      <node id="SW" label="SW">
+        <attvalues>
+          <attvalue for="0" value="Shanwei" />
+          <attvalue for="1" value="22.78199" />
+          <attvalue for="2" value="115.3475" />
+          <attvalue for="3" value="582" />
+        </attvalues>
+      </node>
+      <node id="HY" label="HY">
+        <attvalues>
+          <attvalue for="0" value="Heyuan" />
+          <attvalue for="1" value="23.7304236" />
+          <attvalue for="2" value="114.6800179" />
+          <attvalue for="3" value="613" />
+        </attvalues>
+      </node>
+      <node id="YJ" label="YJ">
+        <attvalues>
+          <attvalue for="0" value="Yangjiang" />
+          <attvalue for="1" value="21.85040916" />
+          <attvalue for="2" value="111.9700024" />
+          <attvalue for="3" value="4796" />
+        </attvalues>
+      </node>
+      <node id="QY" label="QY">
+        <attvalues>
+          <attvalue for="0" value="Qingyuan" />
+          <attvalue for="1" value="23.7003996" />
+          <attvalue for="2" value="113.0300927" />
+          <attvalue for="3" value="2162" />
+        </attvalues>
+      </node>
+      <node id="DG" label="DG">
+        <attvalues>
+          <attvalue for="0" value="Dongguan" />
+          <attvalue for="1" value="23.0488889" />
+          <attvalue for="2" value="113.7447222" />
+          <attvalue for="3" value="6998" />
+        </attvalues>
+      </node>
+      <node id="ZS" label="ZS">
+        <attvalues>
+          <attvalue for="0" value="Zhongshan" />
+          <attvalue for="1" value="22.516998" />
+          <attvalue for="2" value="113.392723" />
+          <attvalue for="3" value="3443" />
+        </attvalues>
+      </node>
+      <node id="CZ" label="CZ">
+        <attvalues>
+          <attvalue for="0" value="Chaozhou" />
+          <attvalue for="1" value="23.68003908" />
+          <attvalue for="2" value="116.630028" />
+          <attvalue for="3" value="327" />
+        </attvalues>
+      </node>
+      <node id="JY" label="JY">
+        <attvalues>
+          <attvalue for="0" value="Jieyang" />
+          <attvalue for="1" value="22.9348" />
+          <attvalue for="2" value="116.37143" />
+          <attvalue for="3" value="929" />
+        </attvalues>
+      </node>
+      <node id="YF" label="YF">
+        <attvalues>
+          <attvalue for="0" value="Yunfu" />
+          <attvalue for="1" value="22.915094" />
+          <attvalue for="2" value="112.044491" />
+          <attvalue for="3" value="2536" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="GZ" target="SG" weight="6395.235863500626" />
+      <edge id="1" source="GZ" target="SZ" weight="24683.66707539553" />
+      <edge id="2" source="GZ" target="ZH" weight="6398.610423499956" />
+      <edge id="3" source="GZ" target="ST" weight="3370.8589312509403" />
+      <edge id="4" source="GZ" target="FS" weight="76290.28723179424" />
+      <edge id="5" source="GZ" target="JM" weight="8473.658562080995" />
+      <edge id="6" source="GZ" target="ZJ" weight="5996.451274572519" />
+      <edge id="7" source="GZ" target="MM" weight="5021.519262945455" />
+      <edge id="8" source="GZ" target="ZQ" weight="9038.387419005532" />
+      <edge id="9" source="GZ" target="HZ" weight="12152.308641338685" />
+      <edge id="10" source="GZ" target="MZ" weight="3326.325807707039" />
+      <edge id="11" source="GZ" target="SW" weight="2352.7357889394007" />
+      <edge id="12" source="GZ" target="HY" weight="3117.3864961863674" />
+      <edge id="13" source="GZ" target="YJ" weight="2779.100962615506" />
+      <edge id="14" source="GZ" target="QY" weight="20033.761388840972" />
+      <edge id="15" source="GZ" target="DG" weight="30080.651428173518" />
+      <edge id="16" source="GZ" target="ZS" weight="10877.59483618712" />
+      <edge id="17" source="GZ" target="CZ" weight="1346.7935241762457" />
+      <edge id="18" source="GZ" target="JY" weight="3329.328516076473" />
+      <edge id="19" source="GZ" target="YF" weight="3550.501205436293" />
+      <edge id="20" source="SG" target="GZ" weight="5248.454613630723" />
+      <edge id="21" source="SG" target="SZ" weight="1408.0626319335277" />
+      <edge id="22" source="SG" target="ZH" weight="254.16923817519137" />
+      <edge id="23" source="SG" target="ST" weight="91.54706663942459" />
+      <edge id="24" source="SG" target="FS" weight="1578.4472192224268" />
+      <edge id="25" source="SG" target="JM" weight="207.81190139613742" />
+      <edge id="26" source="SG" target="ZJ" weight="101.95036936509024" />
+      <edge id="27" source="SG" target="MM" weight="91.9137499648741" />
+      <edge id="28" source="SG" target="ZQ" weight="204.1846921071845" />
+      <edge id="29" source="SG" target="HZ" weight="518.529832897642" />
+      <edge id="30" source="SG" target="MZ" weight="144.6330733138658" />
+      <edge id="31" source="SG" target="SW" weight="49.54529613149367" />
+      <edge id="32" source="SG" target="HY" weight="490.6658384109772" />
+      <edge id="33" source="SG" target="YJ" weight="62.09577790271325" />
+      <edge id="34" source="SG" target="QY" weight="2237.450081869364" />
+      <edge id="35" source="SG" target="DG" weight="1299.3166262848927" />
+      <edge id="36" source="SG" target="ZS" weight="373.1405088162104" />
+      <edge id="37" source="SG" target="CZ" weight="36.18115201825609" />
+      <edge id="38" source="SG" target="JY" weight="101.55118645204483" />
+      <edge id="39" source="SG" target="YF" weight="73.39719376265508" />
+      <edge id="40" source="SZ" target="GZ" weight="27367.084364994003" />
+      <edge id="41" source="SZ" target="SG" weight="1810.5793267366898" />
+      <edge id="42" source="SZ" target="ZH" weight="3920.284352283626" />
+      <edge id="43" source="SZ" target="ST" weight="3443.7339278684462" />
+      <edge id="44" source="SZ" target="FS" weight="7624.151543828797" />
+      <edge id="45" source="SZ" target="JM" weight="2514.631306773861" />
+      <edge id="46" source="SZ" target="ZJ" weight="2674.458920326135" />
+      <edge id="47" source="SZ" target="MM" weight="2945.453047747416" />
+      <edge id="48" source="SZ" target="ZQ" weight="1545.4466444261184" />
+      <edge id="49" source="SZ" target="HZ" weight="43829.556452426004" />
+      <edge id="50" source="SZ" target="MZ" weight="4083.0942654075207" />
+      <edge id="51" source="SZ" target="SW" weight="5454.936225190057" />
+      <edge id="52" source="SZ" target="HY" weight="5775.7955388417" />
+      <edge id="53" source="SZ" target="YJ" weight="1039.7426385547594" />
+      <edge id="54" source="SZ" target="QY" weight="2375.7594764959604" />
+      <edge id="55" source="SZ" target="DG" weight="73577.7415141357" />
+      <edge id="56" source="SZ" target="ZS" weight="4968.999775877251" />
+      <edge id="57" source="SZ" target="CZ" weight="1019.859408751761" />
+      <edge id="58" source="SZ" target="JY" weight="4277.563241335352" />
+      <edge id="59" source="SZ" target="YF" weight="1040.685185707376" />
+      <edge id="60" source="ZH" target="GZ" weight="6047.924207351565" />
+      <edge id="61" source="ZH" target="SG" weight="267.24697465185034" />
+      <edge id="62" source="ZH" target="SZ" weight="3252.4818540581346" />
+      <edge id="63" source="ZH" target="ST" weight="251.77461115629782" />
+      <edge id="64" source="ZH" target="FS" weight="2212.971779364862" />
+      <edge id="65" source="ZH" target="JM" weight="3021.955566046709" />
+      <edge id="66" source="ZH" target="ZJ" weight="854.0038847943365" />
+      <edge id="67" source="ZH" target="MM" weight="796.5201317422864" />
+      <edge id="68" source="ZH" target="ZQ" weight="475.4283518011002" />
+      <edge id="69" source="ZH" target="HZ" weight="636.3711841890264" />
+      <edge id="70" source="ZH" target="MZ" weight="215.4066224483636" />
+      <edge id="71" source="ZH" target="SW" weight="186.2930371133744" />
+      <edge id="72" source="ZH" target="HY" weight="163.2201121530927" />
+      <edge id="73" source="ZH" target="YJ" weight="705.667200759214" />
+      <edge id="74" source="ZH" target="QY" weight="427.11317945197356" />
+      <edge id="75" source="ZH" target="DG" weight="1612.3022685086175" />
+      <edge id="76" source="ZH" target="ZS" weight="24242.142438594074" />
+      <edge id="77" source="ZH" target="CZ" weight="81.21443933666171" />
+      <edge id="78" source="ZH" target="JY" weight="224.37166775556955" />
+      <edge id="79" source="ZH" target="YF" weight="296.75498789392395" />
+      <edge id="80" source="ST" target="GZ" weight="3216.5881863828345" />
+      <edge id="81" source="ST" target="SG" weight="92.42604689164416" />
+      <edge id="82" source="ST" target="SZ" weight="2901.808391619559" />
+      <edge id="83" source="ST" target="ZH" weight="235.19412132953875" />
+      <edge id="84" source="ST" target="FS" weight="587.0419260779357" />
+      <edge id="85" source="ST" target="JM" weight="90.28978281266343" />
+      <edge id="86" source="ST" target="ZJ" weight="65.5895200774435" />
+      <edge id="87" source="ST" target="MM" weight="40.85049867718466" />
+      <edge id="88" source="ST" target="ZQ" weight="72.6140718449527" />
+      <edge id="89" source="ST" target="HZ" weight="780.2006281584038" />
+      <edge id="90" source="ST" target="MZ" weight="869.8231687437783" />
+      <edge id="91" source="ST" target="SW" weight="639.4459544786562" />
+      <edge id="92" source="ST" target="HY" weight="176.1363756850201" />
+      <edge id="93" source="ST" target="YJ" weight="38.57912778750028" />
+      <edge id="94" source="ST" target="QY" weight="107.47616146712295" />
+      <edge id="95" source="ST" target="DG" weight="820.7951021259496" />
+      <edge id="96" source="ST" target="ZS" weight="205.77475065165052" />
+      <edge id="97" source="ST" target="CZ" weight="7103.712328692942" />
+      <edge id="98" source="ST" target="JY" weight="9542.074259955853" />
+      <edge id="99" source="ST" target="YF" weight="24.637922070200794" />
+      <edge id="100" source="FS" target="GZ" weight="76847.1501331174" />
+      <edge id="101" source="FS" target="SG" weight="2014.61609921102" />
+      <edge id="102" source="FS" target="SZ" weight="6778.949783104078" />
+      <edge id="103" source="FS" target="ZH" weight="2431.0039207983837" />
+      <edge id="104" source="FS" target="ST" weight="601.2887589089687" />
+      <edge id="105" source="FS" target="JM" weight="9346.009463291222" />
+      <edge id="106" source="FS" target="ZJ" weight="2135.594504133538" />
+      <edge id="107" source="FS" target="MM" weight="1790.785514544334" />
+      <edge id="108" source="FS" target="ZQ" weight="13655.925425716136" />
+      <edge id="109" source="FS" target="HZ" weight="2808.4543553090057" />
+      <edge id="110" source="FS" target="MZ" weight="721.3563339021129" />
+      <edge id="111" source="FS" target="SW" weight="541.7820223957528" />
+      <edge id="112" source="FS" target="HY" weight="827.2968714792792" />
+      <edge id="113" source="FS" target="YJ" weight="1469.339507230471" />
+      <edge id="114" source="FS" target="QY" weight="7034.215080075342" />
+      <edge id="115" source="FS" target="DG" weight="7284.068696794022" />
+      <edge id="116" source="FS" target="ZS" weight="15133.926155651838" />
+      <edge id="117" source="FS" target="CZ" weight="329.46570271442556" />
+      <edge id="118" source="FS" target="JY" weight="720.8349555481748" />
+      <edge id="119" source="FS" target="YF" weight="3589.557677929591" />
+      <edge id="120" source="JM" target="GZ" weight="7373.563626289187" />
+      <edge id="121" source="JM" target="SG" weight="240.7543513671" />
+      <edge id="122" source="JM" target="SZ" weight="1985.4588340074909" />
+      <edge id="123" source="JM" target="ZH" weight="2850.7614814367435" />
+      <edge id="124" source="JM" target="ST" weight="96.83710931869287" />
+      <edge id="125" source="JM" target="FS" weight="7748.0591046265245" />
+      <edge id="126" source="JM" target="ZJ" weight="635.0527704837331" />
+      <edge id="127" source="JM" target="MM" weight="668.56088850181" />
+      <edge id="128" source="JM" target="ZQ" weight="1004.3749397493259" />
+      <edge id="129" source="JM" target="HZ" weight="537.6345023525246" />
+      <edge id="130" source="JM" target="MZ" weight="100.24669642545842" />
+      <edge id="131" source="JM" target="SW" weight="74.6836918484237" />
+      <edge id="132" source="JM" target="HY" weight="124.93600695414747" />
+      <edge id="133" source="JM" target="YJ" weight="1568.400873525818" />
+      <edge id="134" source="JM" target="QY" weight="536.3272624233799" />
+      <edge id="135" source="JM" target="DG" weight="1838.1422825928012" />
+      <edge id="136" source="JM" target="ZS" weight="7526.469757950684" />
+      <edge id="137" source="JM" target="CZ" weight="46.80385493081759" />
+      <edge id="138" source="JM" target="JY" weight="110.42542195961926" />
+      <edge id="139" source="JM" target="YF" weight="1086.361274213453" />
+      <edge id="140" source="ZJ" target="GZ" weight="5638.935638831473" />
+      <edge id="141" source="ZJ" target="SG" weight="105.96547777857569" />
+      <edge id="142" source="ZJ" target="SZ" weight="2391.223045832403" />
+      <edge id="143" source="ZJ" target="ZH" weight="818.5512979930365" />
+      <edge id="144" source="ZJ" target="ST" weight="68.4178708833097" />
+      <edge id="145" source="ZJ" target="FS" weight="1994.7694457952737" />
+      <edge id="146" source="ZJ" target="JM" weight="789.5763523048316" />
+      <edge id="147" source="ZJ" target="MM" weight="5691.5722061315255" />
+      <edge id="148" source="ZJ" target="ZQ" weight="272.299308501144" />
+      <edge id="149" source="ZJ" target="HZ" weight="390.6849401513224" />
+      <edge id="150" source="ZJ" target="MZ" weight="52.19156232648457" />
+      <edge id="151" source="ZJ" target="SW" weight="51.57137368024192" />
+      <edge id="152" source="ZJ" target="HY" weight="51.23541088065053" />
+      <edge id="153" source="ZJ" target="YJ" weight="794.618509725841" />
+      <edge id="154" source="ZJ" target="QY" weight="188.1396830323434" />
+      <edge id="155" source="ZJ" target="DG" weight="1379.6040390750907" />
+      <edge id="156" source="ZJ" target="ZS" weight="824.5649321595299" />
+      <edge id="157" source="ZJ" target="CZ" weight="38.8034998339976" />
+      <edge id="158" source="ZJ" target="JY" weight="63.13645063653334" />
+      <edge id="159" source="ZJ" target="YF" weight="187.01044684892068" />
+      <edge id="160" source="MM" target="GZ" weight="4858.074814359623" />
+      <edge id="161" source="MM" target="SG" weight="97.33176328695676" />
+      <edge id="162" source="MM" target="SZ" weight="2668.814010608803" />
+      <edge id="163" source="MM" target="ZH" weight="763.5095842804318" />
+      <edge id="164" source="MM" target="ST" weight="50.29882358485558" />
+      <edge id="165" source="MM" target="FS" weight="1761.215626705883" />
+      <edge id="166" source="MM" target="JM" weight="701.2454394874429" />
+      <edge id="167" source="MM" target="ZJ" weight="5937.010653132267" />
+      <edge id="168" source="MM" target="ZQ" weight="377.93002548514073" />
+      <edge id="169" source="MM" target="HZ" weight="454.190231754177" />
+      <edge id="170" source="MM" target="MZ" weight="37.46382723534716" />
+      <edge id="171" source="MM" target="SW" weight="37.48149401766911" />
+      <edge id="172" source="MM" target="HY" weight="56.03075202533333" />
+      <edge id="173" source="MM" target="YJ" weight="1949.245553175017" />
+      <edge id="174" source="MM" target="QY" weight="188.76659584895137" />
+      <edge id="175" source="MM" target="DG" weight="2515.706838140898" />
+      <edge id="176" source="MM" target="ZS" weight="788.3033450035881" />
+      <edge id="177" source="MM" target="CZ" weight="21.62215719269131" />
+      <edge id="178" source="MM" target="JY" weight="43.29378222150756" />
+      <edge id="179" source="MM" target="YF" weight="608.7729655892383" />
+      <edge id="180" source="ZQ" target="GZ" weight="7693.439774320653" />
+      <edge id="181" source="ZQ" target="SG" weight="201.6789800830949" />
+      <edge id="182" source="ZQ" target="SZ" weight="1235.5116363647246" />
+      <edge id="183" source="ZQ" target="ZH" weight="422.3649868583604" />
+      <edge id="184" source="ZQ" target="ST" weight="71.94245481703571" />
+      <edge id="185" source="ZQ" target="FS" weight="11351.274615042914" />
+      <edge id="186" source="ZQ" target="JM" weight="917.357527889964" />
+      <edge id="187" source="ZQ" target="ZJ" weight="260.94230810135934" />
+      <edge id="188" source="ZQ" target="MM" weight="373.78634302769126" />
+      <edge id="189" source="ZQ" target="HZ" weight="413.0614944886164" />
+      <edge id="190" source="ZQ" target="MZ" weight="96.30150188587052" />
+      <edge id="191" source="ZQ" target="SW" weight="62.86438501836174" />
+      <edge id="192" source="ZQ" target="HY" weight="102.96648364772315" />
+      <edge id="193" source="ZQ" target="YJ" weight="312.83147863707876" />
+      <edge id="194" source="ZQ" target="QY" weight="1279.7753053969254" />
+      <edge id="195" source="ZQ" target="DG" weight="1348.5059777775348" />
+      <edge id="196" source="ZQ" target="ZS" weight="1069.6672517893396" />
+      <edge id="197" source="ZQ" target="CZ" weight="36.18068676271389" />
+      <edge id="198" source="ZQ" target="JY" weight="135.59109830360123" />
+      <edge id="199" source="ZQ" target="YF" weight="3406.0169877954418" />
+      <edge id="200" source="HZ" target="GZ" weight="10529.179030983127" />
+      <edge id="201" source="HZ" target="SG" weight="590.1596544476674" />
+      <edge id="202" source="HZ" target="SZ" weight="37419.16284371668" />
+      <edge id="203" source="HZ" target="ZH" weight="659.8600457339204" />
+      <edge id="204" source="HZ" target="ST" weight="833.3235088958294" />
+      <edge id="205" source="HZ" target="FS" weight="2338.010274260418" />
+      <edge id="206" source="HZ" target="JM" weight="543.6299628504588" />
+      <edge id="207" source="HZ" target="ZJ" weight="396.90499483454147" />
+      <edge id="208" source="HZ" target="MM" weight="447.78295643568924" />
+      <edge id="209" source="HZ" target="ZQ" weight="439.84142591765766" />
+      <edge id="210" source="HZ" target="MZ" weight="1426.427060631595" />
+      <edge id="211" source="HZ" target="SW" weight="2975.780272247833" />
+      <edge id="212" source="HZ" target="HY" weight="5558.79513954479" />
+      <edge id="213" source="HZ" target="YJ" weight="226.43624361489213" />
+      <edge id="214" source="HZ" target="QY" weight="743.641204195177" />
+      <edge id="215" source="HZ" target="DG" weight="20673.414816637604" />
+      <edge id="216" source="HZ" target="ZS" weight="944.6393844296778" />
+      <edge id="217" source="HZ" target="CZ" weight="295.1542170885937" />
+      <edge id="218" source="HZ" target="JY" weight="1218.8694818025729" />
+      <edge id="219" source="HZ" target="YF" weight="217.4465563511789" />
+      <edge id="220" source="MZ" target="GZ" weight="3055.0455730081403" />
+      <edge id="221" source="MZ" target="SG" weight="136.3504269780695" />
+      <edge id="222" source="MZ" target="SZ" weight="3335.211007048467" />
+      <edge id="223" source="MZ" target="ZH" weight="202.36753340473004" />
+      <edge id="224" source="MZ" target="ST" weight="667.0883631669303" />
+      <edge id="225" source="MZ" target="FS" weight="672.8360807803309" />
+      <edge id="226" source="MZ" target="JM" weight="97.37938506194388" />
+      <edge id="227" source="MZ" target="ZJ" weight="53.761456734779685" />
+      <edge id="228" source="MZ" target="MM" weight="35.43036926361546" />
+      <edge id="229" source="MZ" target="ZQ" weight="98.30615954755761" />
+      <edge id="230" source="MZ" target="HZ" weight="1273.6435020144052" />
+      <edge id="231" source="MZ" target="SW" weight="298.6740286973391" />
+      <edge id="232" source="MZ" target="HY" weight="1243.3800075221463" />
+      <edge id="233" source="MZ" target="YJ" weight="27.234921833816514" />
+      <edge id="234" source="MZ" target="QY" weight="139.97514631237905" />
+      <edge id="235" source="MZ" target="DG" weight="1252.9828879304291" />
+      <edge id="236" source="MZ" target="ZS" weight="267.24464471519144" />
+      <edge id="237" source="MZ" target="CZ" weight="677.8326193343876" />
+      <edge id="238" source="MZ" target="JY" weight="1452.066951736104" />
+      <edge id="239" source="MZ" target="YF" weight="30.183814805332275" />
+      <edge id="240" source="SW" target="GZ" weight="2292.7948211838057" />
+      <edge id="241" source="SW" target="SG" weight="47.604431899728304" />
+      <edge id="242" source="SW" target="SZ" weight="4433.498641912405" />
+      <edge id="243" source="SW" target="ZH" weight="165.82684610016656" />
+      <edge id="244" source="SW" target="ST" weight="563.8676176906256" />
+      <edge id="245" source="SW" target="FS" weight="478.61041284835136" />
+      <edge id="246" source="SW" target="JM" weight="66.53744092344168" />
+      <edge id="247" source="SW" target="ZJ" weight="47.096867293442806" />
+      <edge id="248" source="SW" target="MM" weight="35.69392693370676" />
+      <edge id="249" source="SW" target="ZQ" weight="60.068098954471104" />
+      <edge id="250" source="SW" target="HZ" weight="2535.979124271658" />
+      <edge id="251" source="SW" target="MZ" weight="286.4886674743022" />
+      <edge id="252" source="SW" target="HY" weight="168.86062048144336" />
+      <edge id="253" source="SW" target="YJ" weight="35.28249036704743" />
+      <edge id="254" source="SW" target="QY" weight="78.42460562396865" />
+      <edge id="255" source="SW" target="DG" weight="1047.6038857407846" />
+      <edge id="256" source="SW" target="ZS" weight="203.25533432310317" />
+      <edge id="257" source="SW" target="CZ" weight="158.33352205373063" />
+      <edge id="258" source="SW" target="JY" weight="1496.9489333500378" />
+      <edge id="259" source="SW" target="YF" weight="21.84165641510799" />
+      <edge id="260" source="HY" target="GZ" weight="2901.2979361192592" />
+      <edge id="261" source="HY" target="SG" weight="483.47840760574593" />
+      <edge id="262" source="HY" target="SZ" weight="4189.576407514288" />
+      <edge id="263" source="HY" target="ZH" weight="157.53862791863696" />
+      <edge id="264" source="HY" target="ST" weight="177.93493969598666" />
+      <edge id="265" source="HY" target="FS" weight="695.6625090123953" />
+      <edge id="266" source="HY" target="JM" weight="114.9066683722242" />
+      <edge id="267" source="HY" target="ZJ" weight="49.68873265886403" />
+      <edge id="268" source="HY" target="MM" weight="52.936395306737566" />
+      <edge id="269" source="HY" target="ZQ" weight="110.4872877745219" />
+      <edge id="270" source="HY" target="HZ" weight="4846.801431243785" />
+      <edge id="271" source="HY" target="MZ" weight="1221.1032317973695" />
+      <edge id="272" source="HY" target="SW" weight="174.14819003722826" />
+      <edge id="273" source="HY" target="YJ" weight="39.03956351972437" />
+      <edge id="274" source="HY" target="QY" weight="205.68837118734388" />
+      <edge id="275" source="HY" target="DG" weight="2182.4751507844267" />
+      <edge id="276" source="HY" target="ZS" weight="240.0337450934323" />
+      <edge id="277" source="HY" target="CZ" weight="71.92147310930297" />
+      <edge id="278" source="HY" target="JY" weight="228.56965021824897" />
+      <edge id="279" source="HY" target="YF" weight="55.3163210798586" />
+      <edge id="280" source="YJ" target="GZ" weight="2694.763482279504" />
+      <edge id="281" source="YJ" target="SG" weight="66.0741133214842" />
+      <edge id="282" source="YJ" target="SZ" weight="857.4619374294557" />
+      <edge id="283" source="YJ" target="ZH" weight="690.6211502990385" />
+      <edge id="284" source="YJ" target="ST" weight="44.914941985024406" />
+      <edge id="285" source="YJ" target="FS" weight="1213.406063865259" />
+      <edge id="286" source="YJ" target="JM" weight="1491.6175021166605" />
+      <edge id="287" source="YJ" target="ZJ" weight="773.2611004996205" />
+      <edge id="288" source="YJ" target="MM" weight="1605.2403068455428" />
+      <edge id="289" source="YJ" target="ZQ" weight="291.8150300892354" />
+      <edge id="290" source="YJ" target="HZ" weight="214.9741133507558" />
+      <edge id="291" source="YJ" target="MZ" weight="28.022183891626973" />
+      <edge id="292" source="YJ" target="SW" weight="38.47873609794975" />
+      <edge id="293" source="YJ" target="HY" weight="39.156290866381596" />
+      <edge id="294" source="YJ" target="QY" weight="139.57648923078966" />
+      <edge id="295" source="YJ" target="DG" weight="794.8884315258327" />
+      <edge id="296" source="YJ" target="ZS" weight="764.6178586770598" />
+      <edge id="297" source="YJ" target="CZ" weight="22.443666026334544" />
+      <edge id="298" source="YJ" target="JY" weight="35.97827580231457" />
+      <edge id="299" source="YJ" target="YF" weight="691.8558776069273" />
+      <edge id="300" source="QY" target="GZ" weight="15647.449328370047" />
+      <edge id="301" source="QY" target="SG" weight="2239.3997313161444" />
+      <edge id="302" source="QY" target="SZ" weight="1668.368893834052" />
+      <edge id="303" source="QY" target="ZH" weight="370.90200975107973" />
+      <edge id="304" source="QY" target="ST" weight="109.03508025162112" />
+      <edge id="305" source="QY" target="FS" weight="5366.935927254133" />
+      <edge id="306" source="QY" target="JM" weight="481.48640575669253" />
+      <edge id="307" source="QY" target="ZJ" weight="173.0920629648653" />
+      <edge id="308" source="QY" target="MM" weight="178.87949861942207" />
+      <edge id="309" source="QY" target="ZQ" weight="1245.1965288358915" />
+      <edge id="310" source="QY" target="HZ" weight="681.1424157947638" />
+      <edge id="311" source="QY" target="MZ" weight="144.32077732053398" />
+      <edge id="312" source="QY" target="SW" weight="81.68673558888442" />
+      <edge id="313" source="QY" target="HY" weight="211.14525334944966" />
+      <edge id="314" source="QY" target="YJ" weight="137.59343716809278" />
+      <edge id="315" source="QY" target="DG" weight="2034.5005648439708" />
+      <edge id="316" source="QY" target="ZS" weight="694.2193503113715" />
+      <edge id="317" source="QY" target="CZ" weight="44.994219675551186" />
+      <edge id="318" source="QY" target="JY" weight="104.8050889882128" />
+      <edge id="319" source="QY" target="YF" weight="261.26636614833853" />
+      <edge id="320" source="DG" target="GZ" weight="33083.289119664965" />
+      <edge id="321" source="DG" target="SG" weight="1852.039797464717" />
+      <edge id="322" source="DG" target="SZ" weight="70773.27786522936" />
+      <edge id="323" source="DG" target="ZH" weight="1892.8006427323996" />
+      <edge id="324" source="DG" target="ST" weight="909.5131552020938" />
+      <edge id="325" source="DG" target="FS" weight="7839.123468722209" />
+      <edge id="326" source="DG" target="JM" weight="2315.551683873804" />
+      <edge id="327" source="DG" target="ZJ" weight="1525.0587683123022" />
+      <edge id="328" source="DG" target="MM" weight="2789.8304404553564" />
+      <edge id="329" source="DG" target="ZQ" weight="1890.0002272613144" />
+      <edge id="330" source="DG" target="HZ" weight="25402.390398901425" />
+      <edge id="331" source="DG" target="MZ" weight="1498.8956092918932" />
+      <edge id="332" source="DG" target="SW" weight="1345.0843922490928" />
+      <edge id="333" source="DG" target="HY" weight="3069.2106192487845" />
+      <edge id="334" source="DG" target="YJ" weight="959.9853006243563" />
+      <edge id="335" source="DG" target="QY" weight="3050.6518983889696" />
+      <edge id="336" source="DG" target="ZS" weight="4182.427835710575" />
+      <edge id="337" source="DG" target="CZ" weight="352.0174965843315" />
+      <edge id="338" source="DG" target="JY" weight="1624.8665311782684" />
+      <edge id="339" source="DG" target="YF" weight="1092.6559606991927" />
+      <edge id="340" source="ZS" target="GZ" weight="10735.7662788865" />
+      <edge id="341" source="ZS" target="SG" weight="444.05615034327127" />
+      <edge id="342" source="ZS" target="SZ" weight="4061.272375522921" />
+      <edge id="343" source="ZS" target="ZH" weight="25919.864792690194" />
+      <edge id="344" source="ZS" target="ST" weight="223.90111121106816" />
+      <edge id="345" source="ZS" target="FS" weight="14657.338227997265" />
+      <edge id="346" source="ZS" target="JM" weight="8219.707461593081" />
+      <edge id="347" source="ZS" target="ZJ" weight="862.03098265288" />
+      <edge id="348" source="ZS" target="MM" weight="834.8776322633206" />
+      <edge id="349" source="ZS" target="ZQ" weight="1330.9350087443977" />
+      <edge id="350" source="ZS" target="HZ" weight="997.091212592869" />
+      <edge id="351" source="ZS" target="MZ" weight="293.01927559728347" />
+      <edge id="352" source="ZS" target="SW" weight="242.62416216599823" />
+      <edge id="353" source="ZS" target="HY" weight="282.32428830049975" />
+      <edge id="354" source="ZS" target="YJ" weight="966.2975077784353" />
+      <edge id="355" source="ZS" target="QY" weight="878.1954135235494" />
+      <edge id="356" source="ZS" target="DG" weight="3623.2911717655165" />
+      <edge id="357" source="ZS" target="CZ" weight="113.70008975642922" />
+      <edge id="358" source="ZS" target="JY" weight="267.1972315815397" />
+      <edge id="359" source="ZS" target="YF" weight="810.1705791714347" />
+      <edge id="360" source="CZ" target="GZ" weight="1230.6856530769767" />
+      <edge id="361" source="CZ" target="SG" weight="34.69640295182444" />
+      <edge id="362" source="CZ" target="SZ" weight="795.2941891615528" />
+      <edge id="363" source="CZ" target="ZH" weight="63.806934691586804" />
+      <edge id="364" source="CZ" target="ST" weight="6271.15890179397" />
+      <edge id="365" source="CZ" target="FS" weight="272.4551671563477" />
+      <edge id="366" source="CZ" target="JM" weight="37.22857445376626" />
+      <edge id="367" source="CZ" target="ZJ" weight="30.89809353857786" />
+      <edge id="368" source="CZ" target="MM" weight="15.000569169660174" />
+      <edge id="369" source="CZ" target="ZQ" weight="38.04007012950789" />
+      <edge id="370" source="CZ" target="HZ" weight="234.8930333438451" />
+      <edge id="371" source="CZ" target="MZ" weight="768.2311252607774" />
+      <edge id="372" source="CZ" target="SW" weight="135.55473145209427" />
+      <edge id="373" source="CZ" target="HY" weight="70.4802968262059" />
+      <edge id="374" source="CZ" target="YJ" weight="17.853834808230808" />
+      <edge id="375" source="CZ" target="QY" weight="39.7272538988447" />
+      <edge id="376" source="CZ" target="DG" weight="285.94542576882793" />
+      <edge id="377" source="CZ" target="ZS" weight="97.04487307581628" />
+      <edge id="378" source="CZ" target="JY" weight="2172.0089381427715" />
+      <edge id="379" source="CZ" target="YF" weight="7.701439794339163" />
+      <edge id="380" source="JY" target="GZ" weight="3100.4743200569146" />
+      <edge id="381" source="JY" target="SG" weight="97.79312887978564" />
+      <edge id="382" source="JY" target="SZ" weight="3442.3581296649154" />
+      <edge id="383" source="JY" target="ZH" weight="197.13820795599017" />
+      <edge id="384" source="JY" target="ST" weight="8856.96152769235" />
+      <edge id="385" source="JY" target="FS" weight="697.9259677933235" />
+      <edge id="386" source="JY" target="JM" weight="102.43819386660174" />
+      <edge id="387" source="JY" target="ZJ" weight="64.69818168832244" />
+      <edge id="388" source="JY" target="MM" weight="38.07730829845462" />
+      <edge id="389" source="JY" target="ZQ" weight="138.80061292417128" />
+      <edge id="390" source="JY" target="HZ" weight="1050.6964212790874" />
+      <edge id="391" source="JY" target="MZ" weight="1528.7811505741915" />
+      <edge id="392" source="JY" target="SW" weight="1430.8871993060427" />
+      <edge id="393" source="JY" target="HY" weight="225.04244298155916" />
+      <edge id="394" source="JY" target="YJ" weight="29.9398373033405" />
+      <edge id="395" source="JY" target="QY" weight="108.54580883952359" />
+      <edge id="396" source="JY" target="DG" weight="1296.8375066804258" />
+      <edge id="397" source="JY" target="ZS" weight="236.74904372992293" />
+      <edge id="398" source="JY" target="CZ" weight="2393.2453660482943" />
+      <edge id="399" source="JY" target="YF" weight="28.414371628238936" />
+      <edge id="400" source="YF" target="GZ" weight="2989.5798547309905" />
+      <edge id="401" source="YF" target="SG" weight="71.44116546887352" />
+      <edge id="402" source="YF" target="SZ" weight="812.9082271815655" />
+      <edge id="403" source="YF" target="ZH" weight="259.5002189514373" />
+      <edge id="404" source="YF" target="ST" weight="23.75994998006931" />
+      <edge id="405" source="YF" target="FS" weight="2607.518814472287" />
+      <edge id="406" source="YF" target="JM" weight="951.1247210418186" />
+      <edge id="407" source="YF" target="ZJ" weight="163.7437471021133" />
+      <edge id="408" source="YF" target="MM" weight="575.6540653804865" />
+      <edge id="409" source="YF" target="ZQ" weight="3298.563399434421" />
+      <edge id="410" source="YF" target="HZ" weight="193.29520701578687" />
+      <edge id="411" source="YF" target="MZ" weight="30.33654140120594" />
+      <edge id="412" source="YF" target="SW" weight="22.21470801726529" />
+      <edge id="413" source="YF" target="HY" weight="51.5562484843825" />
+      <edge id="414" source="YF" target="YJ" weight="697.4772730554693" />
+      <edge id="415" source="YF" target="QY" weight="249.82665954261404" />
+      <edge id="416" source="YF" target="DG" weight="842.2329020133126" />
+      <edge id="417" source="YF" target="ZS" weight="590.7829465321371" />
+      <edge id="418" source="YF" target="CZ" weight="9.55577934222461" />
+      <edge id="419" source="YF" target="JY" weight="27.658286651664007" />
+    </edges>
+  </graph>
+</gexf>
